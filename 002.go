@@ -3,9 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("entered the main function")
+	p, _ := fmt.Println("entered the main function")
 	sonu()
 	iter()
+	fmt.Println(p)
+	//fmt.Println(e)
 }
 func sonu() {
 	fmt.Println("entered into sonu finction ")
