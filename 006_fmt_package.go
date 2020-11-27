@@ -12,6 +12,6 @@ func main() {
 	f.Printf("%b\n", x)
 	f.Println(x)
 	f.Println("sonu kumar kushwaha" , x)
-	z := f.Sprintf("%b\n",x)
+	z := f.Sprint(x)
 	f.Println(z)
 }
