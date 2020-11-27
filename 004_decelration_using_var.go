@@ -12,9 +12,9 @@ func main() {
 	s.Println(y)
 	//short hand decelration is only possible inside function body
 	x := 34
-	s.Println(x)
+	s.Println(x + 6)
 	sonu()
 }
 func sonu() {
-	s.Println("this is from sonu function "+y)
+	s.Println("this is from sonu function " + y)
 }
